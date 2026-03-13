@@ -1,0 +1,113 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.4fr 1fr 2fr 2fr 2fr 0.2fr;
+    grid-template-areas:
+    "navbar navbar"
+    "header header" 
+    "intro intro"
+    "box-1 box-2"
+    "box-3 box-4"
+    "footer footer";
+     font-size: 14px;
+}
+
+.header h1 {
+    font-size: 30px;
+}
+
+.intro h1 {
+    font-size: 16px;
+}
+.intro h2 {
+    font-size: 16px;
+}
+
+.intro p {
+    font-size: 16px;
+}
+
+.box-1 {
+    font-size: 16px;
+} 
+
+.navbar{
+  grid-area: navbar;
+  background-color: rgb(125, 172, 224);
+}
+
+
+.header{
+    grid-area: header;
+    background-color: rgb(189, 224, 255);
+}
+
+.intro{
+    grid-area: intro;
+    background-color: rgb(189, 235, 129);
+    font-size: 16px;
+}
+
+
+.box-1{
+    grid-area: box-1;
+    background-color: rgb(142, 247, 168);
+}
+
+.box-2{
+    grid-area: box-2;
+    background-color: rgb(255, 154, 255);
+    font-size: 16px;
+}
+
+.box-3{
+    grid-area: box-3;
+    background-color: rgb(248, 104, 104);
+    font-size: 16px;
+}
+
+.box-4{
+    grid-area: box-4;
+    background-color: rgb(243, 225, 122);
+    font-size: 16px;
+}
+
+.footer{
+    grid-area: footer;
+    background-color:rgb(238, 168, 103);
+    font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+ul li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 27px 27px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
