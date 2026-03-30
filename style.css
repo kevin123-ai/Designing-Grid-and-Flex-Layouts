@@ -46,6 +46,7 @@
 .intro{
     grid-area: intro;
     background-color: rgb(189, 235, 129);
+    padding: 10px;
     font-size: 16px;
 }
 
